@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example</title>
+</head>
+<body>
+
+
+
+
+
+    <div class="todo-APP">
+        <div class="title">Todo APP</div>
+        <div class="todo-from">
+            <input class="todo-input" type="text" placeholder="add a todo">
+            <div class="todo-button" >add to do</div>
+        </div>
+
+        <div class="item">
+            <input type="checkbox">
+            <div class="name">吃饭</div>
+            <div class="del">del</div>
+        </div>
+
+    </div>
+    
+    <style>
+        body{
+            background: linear-gradient(
+                to right,
+                rgb(133,65,168),
+                rgba(44,144,251,1 ) 
+                );
+        }
+        .todo-APP{
+            margin-top: 40px;
+            margin-left: 1%;
+            width: 98%;
+            height: 500px;
+            background-color: aliceblue;
+            border-radius: 10px;
+            padding: 10px;
+            box-sizing: border-box;
+            
+        }
+        .title{
+            text-align: center;
+            font-size: 30px;
+            font-weight: 700;
+
+        }
+        .todo-from{
+            display: flex;
+            margin-top: 20px;
+            margin-left: 40px;
+            margin-bottom: 40px;
+        }
+        .todo-input{
+            width: 60%;
+            height: 40px;
+            border-radius: 10px 0 0 10px;
+            border: 1px solid #e4dada;
+            outline: none;
+            margin-left: 10px;
+           
+        }
+        .todo-button{
+            background: linear-gradient(
+                to right,
+                rgb(133,65,168),
+                rgba(44,144,251,1 ) 
+                );
+            border-radius: 0 10px 10px 0;
+            text-align: center;
+            width: 100px;
+            line-height: 40px;
+            color: #FFF;
+            cursor: pointer;
+         
+        }
+        .item{
+            margin: 0 auto;
+            display: flex;
+            width: 80%;
+            height: 40px;
+            border-radius: 10px;
+            box-shadow: rgb(149,157,165)8px 8px 10px ;
+        }
+    </style>
+</body>
+</html>
